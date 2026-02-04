@@ -13,6 +13,36 @@ This plugin implements early fusion by:
 
 Author: Joseph R. Quinn <quinn.josephr@protonmail.com>
 License: MIT
+
+References:
+    Multi-omics Integration:
+    - Ritchie MD, Holzinger ER, Li R, Pendergrass SA, Kim D (2015). Methods 
+      of integrating data to uncover genotype-phenotype interactions. Nat Rev 
+      Genet. 16(2):85-97. doi:10.1038/nrg3868 [Multi-omics integration review]
+    
+    - Huang S, Chaudhary K, Garmire LX (2017). More Is Better: Recent Progress 
+      in Multi-Omics Data Integration Methods. Front Genet. 8:84. 
+      doi:10.3389/fgene.2017.00084 [Early fusion approaches]
+    
+    Regularization Methods:
+    - Tibshirani R (1996). Regression Shrinkage and Selection via the Lasso. 
+      J R Stat Soc B. 58(1):267-288. doi:10.1111/j.2517-6161.1996.tb02080.x 
+      [LASSO]
+    
+    - Zou H, Hastie T (2005). Regularization and variable selection via the 
+      elastic net. J R Stat Soc B. 67(2):301-320. 
+      doi:10.1111/j.1467-9868.2005.00503.x [Elastic Net]
+    
+    - Hoerl AE, Kennard RW (1970). Ridge Regression: Biased Estimation for 
+      Nonorthogonal Problems. Technometrics. 12(1):55-67. 
+      doi:10.1080/00401706.1970.10488634 [Ridge regression]
+    
+    Classification:
+    - Breiman L (2001). Random Forests. Machine Learning. 45:5-32. 
+      doi:10.1023/A:1010933404324 [Random Forest]
+    
+    - Chen T, Guestrin C (2016). XGBoost: A Scalable Tree Boosting System. 
+      KDD '16. doi:10.1145/2939672.2939785 [XGBoost]
 """
 
 from __future__ import annotations
