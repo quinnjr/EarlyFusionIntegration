@@ -1,0 +1,16 @@
+# EarlyFusionIntegration Plugin Parameters
+#
+# Multi-omics data inputs (samples x features, samples as row index)
+metagenomics	CSV/metagenomics_normalized.csv
+transcriptomics	CSV/transcriptomics_normalized.csv
+labels	CSV/sample_labels.csv
+
+# Regularization settings
+regularization	elasticnet
+alpha	1.0
+l1_ratio	0.5
+
+# Classifier settings
+classifier	logistic
+cv_folds	5
+random_state	42
